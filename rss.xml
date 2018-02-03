@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+ <title>IBD Data</title>
+ <link>https://robertshippey.github.io/IBD-data/</link>
+ <description>Open Data about Inflammatory Bowel Disease</description>
+ <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</lastBuildDate>
+ <ttl>2000</ttl>
+ <image>
+  <title>IBD Open Data</title>
+  <url>https://robertshippey.github.io/IBD-data/images/logo.png</url>
+  <link>https://robertshippey.github.io/IBD-data/</link>
+ </image>
+ {% for post in site.posts %}
+ <item>
+   <title>{{ post.title }}</title>
+   <link>https://robertshippey.github.io/IBD-data/{{ post.url }}</link>
+   <description>{{ post.content | xml_escape }}</description>
+   <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
+   <guid isPermaLink="true">https://robertshippey.github.io/IBD-data/{{ post.url }}</guid>
+   <media:content type="image" url="https://robertshippey.github.io/IBD-data/images/posts/{{ post.image }}" />
+ </item>
+ {% endfor %} 
+</channel>
+</rss>

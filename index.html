@@ -1,0 +1,28 @@
+---
+title: IBD Open Data
+description: 
+---
+
+{% for post in site.posts %}
+
+{% cycle '<div class="row">', ' ', ' ' %}
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">{{ post.title }}
+		{% if post.count %}<span class="badge">{{ post.count }}</span>{% endif %}
+		</h3>
+	</div>
+	<div class="panel-body">
+		{{ post.content }}
+	</div>
+	<div class="panel-footer">
+		<a href="{{ post.link }}">
+		{% if post.glyphicon %}<span class="glyphicon glyphicon-{{ post.glyphicon }}" aria-hidden="true"></span> {% endif %}
+		Visit</a>
+	</div>
+</div>
+
+{% cycle '</div>', ' ', ' ' %}
+
+{% endfor %}
