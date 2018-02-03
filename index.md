@@ -1,7 +1,7 @@
 ---
 layout: layout
 title: IBD Open Data
-description: 
+description: " "
 ---
 
 Here is a collection of data sets relating to IBD, Crohn's Disease, and Ulcerative Colitis. If you have any suggestions, tweet me [@robertshippey](https://twitter.com/robertshippey) or [open an Issue on Github](https://github.com/RobertShippey/IBD-data). 
@@ -30,6 +30,6 @@ Openness and transparency are important, open data sets are key to this.
 		</div>
 	</div>
 
-{% cycle '</div>', ' ', ' ' %}
+{% cycle ' ', ' ', '</div>' %}
 
 {% endfor %}
