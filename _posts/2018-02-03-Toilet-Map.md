@@ -2,7 +2,7 @@
 title: Great British Public Toilet Map
 image: https://greatbritishpublictoiletmap.rca.ac.uk/images/logo.png
 link: https://greatbritishpublictoiletmap.rca.ac.uk/
-datasize: "< 12,000"
+datasize: "> 12,000"
 ---
 
 The map shows toilets that the public can use including those in shops, cafes etc if they choose to let non-customers use their loo, such as those in Community Toilet Schemes. They try not to include those that are for customer use only.
