@@ -24,8 +24,7 @@ Openness and transparency are important, open data sets are key to this.
 			</div>
 			<div class="panel-footer">
 				<a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">
-					{% if post.glyphicon %}<span class="glyphicon glyphicon-{{ post.glyphicon }}" aria-hidden="true"></span> {% endif %}
-				Visit</a>
+					<span class="glyphicon glyphicon-{{ post.glyphicon | default: "new-window" }}" aria-hidden="true"></span> Visit</a>
 			</div>
 		</div>
 	</div>
