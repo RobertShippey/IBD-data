@@ -37,7 +37,7 @@ Sharing is caring.
 
 {% endfor %}
 
-- - - - - 
+<hr>
 
 #### Privacy, copyright and stuff
 
