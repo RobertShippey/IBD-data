@@ -14,9 +14,9 @@ Sharing is caring.
 
 {% for post in site.posts %}
 
-{% cycle '<div class="row">', ' ', ' ' %}
+<div class="row">
 
-	<div class="col-sm-6 col-md-4">
+	<div class="col-sm-6 col-md-4 float-block-left">
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h3 class="panel-title">{{ post.title }}
@@ -33,13 +33,11 @@ Sharing is caring.
 		</div>
 	</div>
 
- {% if forloop.last == true %}
-        </div>
-    {% else %}
-       {% cycle ' ', ' ', '</div>' %}
-{% endif %}
+</div>
 
 {% endfor %}
+
+<div class="clearfix"></div>
 
 <hr>
 
