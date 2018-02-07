@@ -4,7 +4,7 @@ title: IBD Open Data
 description: " "
 ---
 
-## Here is a collection of data sets relating to Inflammatory Bowel Diseases such as Crohn's Disease and Ulcerative Colitis. 
+## Here is a collection of data sets relating to IBD, Crohn's Disease and Ulcerative Colitis. 
 
 Openness and transparency are important, [open data](https://en.wikipedia.org/wiki/Open_data) sets are key to this. Giving people access to data and information helps to allow people to innovate and empowers people to participate in the quest for greater knowledge. 
 
