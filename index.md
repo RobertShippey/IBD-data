@@ -33,7 +33,11 @@ Sharing is caring.
 		</div>
 	</div>
 
-{% cycle ' ', ' ', '</div>' %}
+ {% if forloop.last == true %}
+        </div>
+    {% else %}
+       {% cycle ' ', ' ', '</div>' %}
+{% endif %}
 
 {% endfor %}
 
