@@ -49,7 +49,7 @@ I don't use any tracking or data collection software here.
 
 I've embedded the Twitter Widget and although I've enabled their 'Do Not Track' option for that, they'll probably still be collecting data and setting cookies for you. You can see <a href="https://dev.twitter.com/web/overview/privacy">Twitter's info on widget privacy here</a>. 
 
-I've hosted this on GitHub Pages and as far as I can see they don't track any information, but see <a href="https://help.github.com/articles/github-privacy-statement/"GitHub's Privacy Statement</a> for more info. 
+I've hosted this on GitHub Pages and as far as I can see they don't track any information, but see <a href="https://help.github.com/articles/github-privacy-statement/">GitHub's Privacy Statement</a> for more info. 
 
 I don't own the copyright to any of the datasets here. I've used some of their own text to explain the data for simplicity, I hope that's okay. 
 
