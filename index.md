@@ -12,9 +12,9 @@ At the moment I haven't found many data sets. If you have any suggestions for ad
 
 Sharing is caring. 
 
-{% for post in site.posts %}
-
 <div class="row">
+
+{% for post in site.posts %}
 
 	<div class="col-sm-6 col-md-4 float-block-left">
 		<div class="panel panel-default">
@@ -33,10 +33,9 @@ Sharing is caring.
 		</div>
 	</div>
 
-</div>
-
 {% endfor %}
 
+</div>
 <div class="clearfix"></div>
 
 <hr>
